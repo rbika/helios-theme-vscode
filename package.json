@@ -17,7 +17,7 @@
       {
         "label": "Apollo Theme",
         "uiTheme": "vs",
-        "path": "./themes/Apollo Theme-color-theme.json"
+        "path": "./themes/apollo-theme.json"
       }
     ]
   },

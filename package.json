@@ -3,6 +3,9 @@
   "displayName": "Apollo Theme",
   "description": "A clean and modern light theme",
   "version": "0.0.1",
+  "scripts": {
+    "format": "prettier --write ."
+  },
   "engines": {
     "vscode": "^1.120.0"
   },
@@ -17,5 +20,8 @@
         "path": "./themes/Apollo Theme-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "prettier": "3.8.3"
   }
 }

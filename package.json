@@ -1,0 +1,21 @@
+{
+  "name": "apollo-theme",
+  "displayName": "Apollo Theme",
+  "description": "A clean and modern light theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Apollo Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Apollo Theme-color-theme.json"
+      }
+    ]
+  }
+}

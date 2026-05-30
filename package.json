@@ -1,18 +1,18 @@
 {
-  "name": "apollo-theme",
-  "displayName": "Apollo Theme",
+  "name": "theme-helios",
+  "displayName": "Helios Theme",
   "description": "A clean and modern light theme for VS Code.",
   "version": "0.0.1",
   "publisher": "rbika",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rbika/apollo-theme-vscode"
+    "url": "https://github.com/rbika/helios-theme-vscode"
   },
   "keywords": [
     "theme",
     "light theme",
-    "apollo",
-    "apollo theme",
+    "helios",
+    "helios theme",
     "rbika"
   ],
   "scripts": {
@@ -27,9 +27,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Apollo Theme",
+        "label": "Helios Theme",
         "uiTheme": "vs",
-        "path": "./themes/apollo-theme.json"
+        "path": "./themes/helios.json"
       }
     ]
   },

@@ -307,37 +307,37 @@
     {
       "name": "Comment",
       "scope": "comment",
-      "settings": { "fontStyle": "italic", "foreground": "#93A1A1" }
+      "settings": { "fontStyle": "italic", "foreground": "#8f9da3" }
     },
     {
       "name": "String",
       "scope": "string",
-      "settings": { "foreground": "#2AA198" }
+      "settings": { "foreground": "#299d94" }
     },
     {
       "name": "Regexp",
       "scope": "string.regexp",
-      "settings": { "foreground": "#2AA198" }
+      "settings": { "foreground": "#299d94" }
     },
     {
       "name": "Number",
       "scope": "constant.numeric",
-      "settings": { "foreground": "#D33682" }
+      "settings": { "foreground": "#d74689" }
     },
     {
       "name": "Variable",
       "scope": ["variable.language"],
-      "settings": { "foreground": "#268BD2" }
+      "settings": { "foreground": "#2587cc" }
     },
     {
       "name": "Keyword",
       "scope": "keyword",
-      "settings": { "foreground": "#9C8936" }
+      "settings": { "foreground": "#9f871d" }
     },
     {
       "name": "Storage",
       "scope": "storage",
-      "settings": { "foreground": "#9C8936" }
+      "settings": { "foreground": "#9f871d" }
     },
     {
       "name": "Class name",
@@ -347,17 +347,17 @@
         "entity.name.namespace",
         "entity.name.scope-resolution"
       ],
-      "settings": { "fontStyle": "", "foreground": "#9C8936" }
+      "settings": { "fontStyle": "", "foreground": "#9f871d" }
     },
     {
       "name": "Function name",
       "scope": "entity.name.function",
-      "settings": { "foreground": "#268BD2" }
+      "settings": { "foreground": "#2587cc" }
     },
     {
       "name": "Variable start",
       "scope": "punctuation.definition.variable",
-      "settings": { "foreground": "#9C8936" }
+      "settings": { "foreground": "#9f871d" }
     },
     {
       "name": "Embedded code markers",
@@ -365,22 +365,22 @@
         "punctuation.section.embedded.begin",
         "punctuation.section.embedded.end"
       ],
-      "settings": { "foreground": "#00ff00" }
+      "settings": { "foreground": "#00ff00" } // TODO
     },
     {
       "name": "Built-in constant",
       "scope": ["constant.language", "meta.preprocessor"],
-      "settings": { "foreground": "#D33682" }
+      "settings": { "foreground": "#d74689" }
     },
     {
       "name": "Support.construct",
       "scope": ["support.function.construct", "keyword.other.new"],
-      "settings": { "foreground": "#00ff00" }
+      "settings": { "foreground": "#00ff00" } // TODO
     },
     {
       "name": "User-defined constant",
       "scope": ["constant.character", "constant.other"],
-      "settings": { "foreground": "#2AA198" }
+      "settings": { "foreground": "#299d94" }
     },
     {
       "name": "Inherited class",
@@ -388,7 +388,7 @@
         "entity.other.inherited-class",
         "punctuation.separator.namespace.ruby"
       ],
-      "settings": { "foreground": "#00ff00" }
+      "settings": { "foreground": "#9f871d" }
     },
     {
       "name": "Function argument",
@@ -398,27 +398,27 @@
     {
       "name": "Tag name",
       "scope": "entity.name.tag",
-      "settings": { "foreground": "#268BD2" }
+      "settings": { "foreground": "#2587cc" }
     },
     {
       "name": "Tag start/end",
       "scope": "punctuation.definition.tag",
-      "settings": { "foreground": "#93A1A1" }
+      "settings": { "foreground": "#8f9da3" }
     },
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
-      "settings": { "foreground": "#268BD2" }
+      "settings": { "foreground": "#2587cc" }
     },
     {
       "name": "Library function",
       "scope": "support.function",
-      "settings": { "foreground": "#268BD2" }
+      "settings": { "foreground": "#2587cc" }
     },
     {
       "name": "Continuation",
       "scope": "punctuation.separator.continuation",
-      "settings": { "foreground": "#00ff00" }
+      "settings": { "foreground": "#8f9da3" }
     },
     {
       "name": "Library constant",
@@ -428,12 +428,12 @@
     {
       "name": "Library class/type",
       "scope": ["support.type", "support.class"],
-      "settings": { "foreground": "#9C8936" }
+      "settings": { "foreground": "#9f871d" }
     },
     {
       "name": "Library Exception",
       "scope": "support.type.exception",
-      "settings": { "foreground": "#00ff00" }
+      "settings": { "foreground": "#2587CC" }
     },
     {
       "name": "Library variable",
@@ -443,12 +443,12 @@
     {
       "name": "Invalid",
       "scope": "invalid",
-      "settings": { "foreground": "#00ff00" }
+      "settings": { "foreground": "#DC322F" } // TODO
     },
     {
       "name": "diff: header",
       "scope": ["meta.diff", "meta.diff.header"],
-      "settings": { "fontStyle": "italic", "foreground": "#268BD2" }
+      "settings": { "fontStyle": "italic", "foreground": "#2587cc" }
     },
     {
       "name": "diff: deleted",
@@ -463,12 +463,12 @@
     {
       "name": "diff: inserted",
       "scope": "markup.inserted",
-      "settings": { "foreground": "#9C8936" }
+      "settings": { "foreground": "#9f871d" }
     },
     {
       "name": "Markup Quote",
       "scope": "markup.quote",
-      "settings": { "foreground": "#9C8936" }
+      "settings": { "foreground": "#9f871d" }
     },
     {
       "name": "Markup Lists",
@@ -478,7 +478,7 @@
     {
       "name": "Markup Styling",
       "scope": ["markup.bold", "markup.italic"],
-      "settings": { "foreground": "#D33682" }
+      "settings": { "foreground": "#d74689" }
     },
     {
       "name": "Markup: Strong",
@@ -497,17 +497,17 @@
     {
       "name": "Markup Inline",
       "scope": "markup.inline.raw",
-      "settings": { "fontStyle": "", "foreground": "#2AA198" }
+      "settings": { "fontStyle": "", "foreground": "#299d94" }
     },
     {
       "name": "Markup Headings",
       "scope": "markup.heading",
-      "settings": { "fontStyle": "bold", "foreground": "#268BD2" }
+      "settings": { "fontStyle": "bold", "foreground": "#2587cc" }
     },
     {
       "name": "Markup Setext Header",
       "scope": "markup.heading.setext",
-      "settings": { "fontStyle": "", "foreground": "#268BD2" }
+      "settings": { "fontStyle": "", "foreground": "#2587cc" }
     }
   ]
 }

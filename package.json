@@ -19,7 +19,7 @@
     "format": "prettier --write ."
   },
   "engines": {
-    "vscode": "^1.120.0"
+    "vscode": "^1.105.0"
   },
   "categories": [
     "Themes"

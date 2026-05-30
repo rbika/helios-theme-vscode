@@ -1,8 +1,20 @@
 {
   "name": "apollo-theme",
   "displayName": "Apollo Theme",
-  "description": "A clean and modern light theme",
+  "description": "A clean and modern light theme for VS Code.",
   "version": "0.0.1",
+  "publisher": "rbika",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbika/apollo-theme-vscode"
+  },
+  "keywords": [
+    "theme",
+    "light theme",
+    "apollo",
+    "apollo theme",
+    "rbika"
+  ],
   "scripts": {
     "format": "prettier --write ."
   },

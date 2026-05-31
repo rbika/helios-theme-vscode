@@ -1,10 +1,23 @@
-# Helios Theme for VS Code
+# Helios Theme
 
-A clean and modern light theme for VS Code.
+A clean, modern light theme for VS Code and VS Code-compatible editors.
+
+![Helios Theme screenshot](./screenshot.png)
 
 ## Installation
 
-1. Open Extensions sidebar panel in VS Code. View → Extensions
-2. Search for Helios Theme and find the one by rbika.
-3. Click Install to install it.
-4. Activate it by clicking Code > Preferences > Color Theme > Helios
+### Marketplace links
+
+- [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=rbika.theme-helios)
+- [Open VSX Registry](https://open-vsx.org/extension/rbika/theme-helios)
+
+### Install from editor
+
+1. Open **Extensions** tab in your editor.
+2. Search for `Helios Theme`.
+3. Install the extension published by `rbika`.
+4. Open **Preferences: Color Theme** and select `Helios Theme`.
+
+## License
+
+Distributed under the terms in [`LICENSE.txt`](./LICENSE.txt).

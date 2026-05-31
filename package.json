@@ -4,6 +4,8 @@
   "description": "A clean and modern light theme for VS Code.",
   "version": "0.0.2",
   "publisher": "rbika",
+  "license": "MIT",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/rbika/helios-theme-vscode"

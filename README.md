@@ -1,5 +1,7 @@
 # Helios Theme
 
+🚧 WIP
+
 A clean, modern light theme for VS Code and VS Code-compatible editors.
 
 ![Helios Theme screenshot](./screenshot.png)

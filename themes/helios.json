@@ -82,10 +82,23 @@
     "extensionButton.prominentForeground": "#fcfcfc",
     "extensionButton.prominentHoverBackground": "#374449",
 
+    "gitDecoration.modifiedResourceForeground": "#946F00",
+
     "input.background": "#fcfcfc",
     "input.border": "#dadee0",
     "input.foreground": "#5e727a",
     "input.placeholderForeground": "#8f9da3",
+    "inputOption.activeBorder": "#eaedee",
+    "inputOption.activeBackground": "#eaedee",
+
+    "list.hoverBackground": "#eaedee",
+    "list.hoverForeground": "#5e727a",
+    "list.activeSelectionBackground": "#eaedee",
+    "list.activeSelectionForeground": "#5e727a",
+    "list.inactiveSelectionForeground": "#5e727a",
+    "list.inactiveSelectionBackground": "#eaedee",
+    "list.dropBackground": "#eaedee",
+    // TODO: list active selection border
 
     // TODO: test these colors
     "menu.background": "#f6f8f8",
@@ -102,6 +115,10 @@
     "minimap.findMatchHighlight": "#5e727a44",
     "minimap.errorHighlight": "#C72100",
     "minimapGutter.modifiedBackground": "#946F00",
+
+    "notifications.background": "#fcfcfc",
+    "notifications.foreground": "#5e727a",
+    "notifications.border": "#dadee0",
 
     "panel.background": "#fcfcfc",
     "panel.border": "#dadee0",
@@ -133,6 +150,7 @@
     "sideBarSectionHeader.background": "#f6f8f8",
     "sideBarSectionHeader.foreground": "#5e727a",
     "sideBarStickyScroll.border": "#dadee0",
+    "sideBarTitle.foreground": "#5e727a",
 
     "statusBar.background": "#f6f8f8",
     "statusBar.debuggingBackground": "#f6f8f8",
@@ -171,6 +189,9 @@
     "terminal.ansiBrightWhite": "#fcfcfc",
     "terminal.ansiRed": "#C72100",
     "terminal.ansiYellow": "#946F00",
+    "terminal.selectionBackground": "#dadee0",
+    "terminalCursor.background": "#fcfcfc",
+    "terminalCursor.foreground": "#5e727a",
 
     "textLink.activeForeground": "#007AC0",
     "textLink.foreground": "#007AC0",
@@ -261,12 +282,9 @@
     "gitDecoration.addedResourceForeground": "#1F8A65",
     "gitDecoration.deletedResourceForeground": "#CF2D56",
     "gitDecoration.ignoredResourceForeground": "#1414147A",
-    "gitDecoration.modifiedResourceForeground": "#C08532",
     "gitDecoration.untrackedResourceForeground": "#4C7F8C",
     "git.blame.editorDecorationForeground": "#141414AD",
     "gitlens.trailingLineForegroundColor": "#1414147A",
-    "inputOption.activeBorder": "#14141400",
-    "inputOption.activeBackground": "#1414141E",
     "inputValidation.errorBackground": "#FFD0D6",
     "inputValidation.errorBorder": "#E75E78",
     "inputValidation.errorForeground": "#CF2D56",
@@ -276,18 +294,12 @@
     "inputValidation.warningBackground": "#F0DAC1",
     "inputValidation.warningBorder": "#C08532",
     "inputValidation.warningForeground": "#A16900",
-    "list.activeSelectionBackground": "#14141411",
-    "list.activeSelectionForeground": "#5e727a",
-    "list.inactiveSelectionBackground": "#14141411",
-    "list.inactiveSelectionForeground": "#5e727a",
     "list.deemphasizedForeground": "#141414AD",
-    "list.dropBackground": "#14141411",
     "list.errorForeground": "#CF2D56",
+    "list.highlightForeground": "#6F9BA6",
     "list.focusBackground": "#1414141E",
     "list.focusForeground": "#5e727a",
-    "list.highlightForeground": "#6F9BA6",
-    "list.hoverBackground": "#14141411",
-    "list.hoverForeground": "#5e727a",
+
     "list.invalidItemForeground": "#1414147A",
     "list.warningForeground": "#C08532",
 
@@ -297,9 +309,7 @@
     "merge.incomingContentBackground": "#6F9BA65C",
     "merge.incomingHeaderBackground": "#6F9BA67A",
     "notificationLink.foreground": "#6F9BA6",
-    "notifications.background": "#F3F3F3",
-    "notifications.foreground": "#5e727a",
-    "notifications.border": "#14141413",
+
     "notificationsErrorIcon.foreground": "#CF2D56",
     "notificationsInfoIcon.foreground": "#206595",
     "notificationsWarningIcon.foreground": "#DB704B",
@@ -312,7 +322,6 @@
     "pickerGroup.foreground": "#5e727a",
     "progressBar.background": "#1F8A65",
 
-    "sideBarTitle.foreground": "#00ff00",
     "statusBarItem.activeBackground": "#1414141E",
     "statusBarItem.hoverBackground": "#14141411",
     "statusBarItem.prominentBackground": "#14141411",
@@ -323,9 +332,7 @@
     "terminal.ansiBrightYellow": "#C08532",
     "terminal.ansiCyan": "#4C7F8C",
     "terminal.ansiGreen": "#1F8A65",
-    "terminal.selectionBackground": "#1414141E",
-    "terminalCursor.background": "#F3F3F3",
-    "terminalCursor.foreground": "#5e727a",
+
     "terminalStickyScroll.border": "#14141413",
     "textPreformat.foreground": "#6F9BA6",
     "textSeparator.foreground": "#6F9BA6",

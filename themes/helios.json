@@ -6,6 +6,8 @@
     "foreground": "#4e5f66",
     "focusBorder": "#b8c1c5",
 
+    "sash.hoverBorder": "#00000000",
+
     "activityBar.background": "#f6f8f8",
     "activityBar.foreground": "#5e727a",
     "activityBarBadge.background": "#4e5f66",
@@ -40,8 +42,8 @@
 
     "debugToolBar.background": "#fcfcfc",
 
-    "diffEditor.removedLineBackground": "#fef3f1",
-    "diffEditor.removedTextBackground": "#fce1db",
+    "diffEditor.removedLineBackground": "#ffeded",
+    "diffEditor.removedTextBackground": "#ffcccc",
 
     "editor.background": "#fcfcfc",
     "editor.foreground": "#5e727a",
@@ -98,6 +100,9 @@
     "list.inactiveSelectionForeground": "#5e727a",
     "list.inactiveSelectionBackground": "#eaedee",
     "list.dropBackground": "#eaedee",
+    "list.errorForeground": "#C9432E",
+    "list.highlightForeground": "#946F00",
+
     // TODO: list active selection border
 
     // TODO: test these colors
@@ -161,6 +166,8 @@
     "statusBar.noFolderForeground": "#5e727a",
     "statusBarItem.remoteBackground": "#f6f8f8",
     "statusBarItem.remoteForeground": "#5e727a",
+    "statusBarItem.activeBackground": "#eaedee",
+    "statusBarItem.hoverBackground": "#eaedee",
 
     "tab.inactiveBackground": "#f6f8f8",
     "tab.hoverBackground": "#eaedee",
@@ -188,7 +195,11 @@
     "terminal.ansiBrightMagenta": "#CC3B81",
     "terminal.ansiBrightWhite": "#fcfcfc",
     "terminal.ansiRed": "#C72100",
+    "terminal.ansiBrightRed": "#C72100",
+    "terminal.ansiGreen": "#3C8500",
+    "terminal.ansiBrightGreen": "#3C8500",
     "terminal.ansiYellow": "#946F00",
+    "terminal.ansiBrightYellow": "#946F00",
     "terminal.selectionBackground": "#dadee0",
     "terminalCursor.background": "#fcfcfc",
     "terminalCursor.foreground": "#5e727a",
@@ -213,7 +224,6 @@
     "descriptionForeground": "#141414AD",
     "errorForeground": "#CF2D56",
     "icon.foreground": "#1414145E",
-    "sash.hoverBorder": "#1414141C",
 
     "charts.foreground": "#141414AD",
     "charts.lines": "#141414AD",
@@ -295,10 +305,8 @@
     "inputValidation.warningBorder": "#C08532",
     "inputValidation.warningForeground": "#A16900",
     "list.deemphasizedForeground": "#141414AD",
-    "list.errorForeground": "#CF2D56",
-    "list.highlightForeground": "#6F9BA6",
-    "list.focusBackground": "#1414141E",
-    "list.focusForeground": "#5e727a",
+    "list.focusBackground": "#00ff00", // 1414141E
+    "list.focusForeground": "#00ff00", // 5e727a
 
     "list.invalidItemForeground": "#1414147A",
     "list.warningForeground": "#C08532",
@@ -322,16 +330,11 @@
     "pickerGroup.foreground": "#5e727a",
     "progressBar.background": "#1F8A65",
 
-    "statusBarItem.activeBackground": "#1414141E",
-    "statusBarItem.hoverBackground": "#14141411",
     "statusBarItem.prominentBackground": "#14141411",
     "statusBarItem.prominentHoverBackground": "#1414141E",
+
     "terminal.ansiBrightCyan": "#6F9BA6",
-    "terminal.ansiBrightGreen": "#55A583",
-    "terminal.ansiBrightRed": "#E75E78",
-    "terminal.ansiBrightYellow": "#C08532",
     "terminal.ansiCyan": "#4C7F8C",
-    "terminal.ansiGreen": "#1F8A65",
 
     "terminalStickyScroll.border": "#14141413",
     "textPreformat.foreground": "#6F9BA6",

@@ -425,7 +425,7 @@
         "punctuation.section.embedded.begin",
         "punctuation.section.embedded.end"
       ],
-      "settings": { "foreground": "#00ff00" } // TODO
+      "settings": { "foreground": "#946F00" }
     },
     {
       "name": "Built-in constant",
@@ -435,7 +435,7 @@
     {
       "name": "Support.construct",
       "scope": ["support.function.construct", "keyword.other.new"],
-      "settings": { "foreground": "#00ff00" } // TODO
+      "settings": { "foreground": "#007AC0" }
     },
     {
       "name": "User-defined constant",
@@ -539,12 +539,12 @@
     {
       "name": "Markup Styling",
       "scope": ["markup.bold", "markup.italic"],
-      "settings": { "foreground": "#CC3B81" }
+      "settings": { "foreground": "#007AC0" }
     },
     {
       "name": "Markup: Strong",
       "scope": "markup.bold",
-      "settings": { "fontStyle": "bold" }
+      "settings": { "fontStyle": "normal" }
     },
     {
       "name": "Markup: Emphasis",

@@ -13,8 +13,8 @@
     "widget.border": "#dadee0",
     "widget.shadow": "#f1f3f4",
     "selection.background": "#dadee0",
-    "descriptionForeground": "#00ff00", // 141414AD
-    "errorForeground": "#00ff00", // CF2D56
+    "descriptionForeground": "#4e5f66",
+    "errorForeground": "#C72100",
     "icon.foreground": "#5e727a",
     "sash.hoverBorder": "#00000000",
 
@@ -175,6 +175,13 @@
     "editor.selectionHighlightBackground": "#eaedee",
     "editorBracketMatch.background": "#dadee0",
     "editorBracketMatch.border": "#dadee0",
+    "editorWarning.foreground": "#C72100",
+    // "debugExceptionWidget.border": "#F3F3F3",
+    // "debugExceptionWidget.background": "#fcfcfc",
+    "editor.findMatchBackground": "#c2cacd",
+    "editor.findMatchHighlightBackground": "#dadee0",
+    "editor.findRangeHighlightBackground": "#f1f3f4",
+    "editor.rangeHighlightBackground": "#dadee0",
 
     // Diff editor colors
     // ------------------
@@ -211,6 +218,10 @@
 
     // Merge conflicts colors
     // ----------------------
+    "merge.currentContentBackground": "#E1F4E4",
+    "merge.currentHeaderBackground": "#C3E9C9",
+    "merge.incomingContentBackground": "#DCEDF9",
+    "merge.incomingHeaderBackground": "#BADBF2",
 
     // Panel colors
     // ------------
@@ -378,8 +389,7 @@
     // Extension colors
     // ----------------
 
-    // ----------
-    "debugExceptionWidget.border": "#F3F3F3",
+    // ---------------------------------------------------------------------------------------------
 
     "charts.foreground": "#141414AD",
     "charts.lines": "#141414AD",
@@ -393,15 +403,9 @@
     "chart.axis": "#14141413",
     "chart.guide": "#141414AD",
 
-    "debugExceptionWidget.background": "#fcfcfc",
     "diffEditor.insertedLineBackground": "#1F8A651F",
     "diffEditor.insertedTextBackground": "#1F8A6524",
     "diffEditor.unchangedCodeBackground": "#fcfcfc",
-
-    "editor.findMatchBackground": "#6F9BA65C",
-    "editor.findMatchHighlightBackground": "#6F9BA62E",
-    "editor.findRangeHighlightBackground": "#14141411",
-    "editor.rangeHighlightBackground": "#6F9BA629",
 
     "editor.snippetFinalTabstopHighlightBorder": "#1414141C",
     "editor.snippetTabstopHighlightBackground": "#1414141E",
@@ -435,7 +439,6 @@
 
     "editorUnnecessaryCode.opacity": "#0000007F",
     "editorWarning.border": "#FCFCFC00",
-    "editorWarning.foreground": "#DB704B",
     "editorWhitespace.foreground": "#1414145E",
     "editorWidget.background": "#fcfcfc",
     "editorWidget.foreground": "#141414AD",
@@ -453,11 +456,6 @@
     "list.invalidItemForeground": "#1414147A",
     "list.warningForeground": "#C08532",
 
-    "merge.border": "#FCFCFC00",
-    "merge.currentContentBackground": "#9E94D55C",
-    "merge.currentHeaderBackground": "#9E94D57A",
-    "merge.incomingContentBackground": "#6F9BA65C",
-    "merge.incomingHeaderBackground": "#6F9BA67A",
     "notificationLink.foreground": "#6F9BA6",
 
     "notificationsErrorIcon.foreground": "#CF2D56",

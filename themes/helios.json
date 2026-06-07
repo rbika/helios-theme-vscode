@@ -5,6 +5,7 @@
   "colors": {
     "foreground": "#4e5f66",
     "focusBorder": "#b8c1c5",
+    "icon.foreground": "#5e727a",
 
     "sash.hoverBorder": "#00000000",
 
@@ -45,6 +46,12 @@
     "diffEditor.removedLineBackground": "#ffeded",
     "diffEditor.removedTextBackground": "#ffcccc",
 
+    // Dropdown control
+    // https://code.visualstudio.com/api/references/theme-color#dropdown-control
+    "dropdown.background": "#fcfcfc",
+    "dropdown.border": "#dadee0",
+    "dropdown.foreground": "#5e727a",
+
     "editor.background": "#fcfcfc",
     "editor.foreground": "#5e727a",
     "editor.lineHighlightBackground": "#f1f3f4",
@@ -84,7 +91,14 @@
     "extensionButton.prominentForeground": "#fcfcfc",
     "extensionButton.prominentHoverBackground": "#374449",
 
+    // Git colors
+    // https://code.visualstudio.com/api/references/theme-color#git-colors
     "gitDecoration.modifiedResourceForeground": "#946F00",
+    "gitDecoration.ignoredResourceForeground": "#8f9da3",
+    "git.blame.editorDecorationForeground": "#8f9da3",
+    // "gitDecoration.addedResourceForeground": "#00998C",
+    // "gitDecoration.deletedResourceForeground": "#CF2D56",
+    // "gitDecoration.untrackedResourceForeground": "#4C7F8C",
 
     "input.background": "#fcfcfc",
     "input.border": "#dadee0",
@@ -93,6 +107,8 @@
     "inputOption.activeBorder": "#eaedee",
     "inputOption.activeBackground": "#eaedee",
 
+    // List and trees
+    // https://code.visualstudio.com/api/references/theme-color#lists-and-trees
     "list.hoverBackground": "#eaedee",
     "list.hoverForeground": "#5e727a",
     "list.activeSelectionBackground": "#eaedee",
@@ -102,6 +118,8 @@
     "list.dropBackground": "#eaedee",
     "list.errorForeground": "#C9432E",
     "list.highlightForeground": "#946F00",
+    "list.focusBackground": "#eaedee",
+    "list.focusForeground": "#5e727a",
 
     // TODO: list active selection border
 
@@ -223,7 +241,6 @@
     "debugExceptionWidget.border": "#F3F3F3",
     "descriptionForeground": "#141414AD",
     "errorForeground": "#CF2D56",
-    "icon.foreground": "#1414145E",
 
     "charts.foreground": "#141414AD",
     "charts.lines": "#141414AD",
@@ -241,9 +258,6 @@
     "diffEditor.insertedLineBackground": "#1F8A651F",
     "diffEditor.insertedTextBackground": "#1F8A6524",
     "diffEditor.unchangedCodeBackground": "#fcfcfc",
-    "dropdown.background": "#FCFCFC",
-    "dropdown.border": "#14141413",
-    "dropdown.foreground": "#5e727a",
 
     "editor.findMatchBackground": "#6F9BA65C",
     "editor.findMatchHighlightBackground": "#6F9BA62E",
@@ -289,12 +303,6 @@
     "editorWidget.resizeBorder": "#14141426",
     "editorStickyScroll.border": "#14141413",
 
-    "gitDecoration.addedResourceForeground": "#1F8A65",
-    "gitDecoration.deletedResourceForeground": "#CF2D56",
-    "gitDecoration.ignoredResourceForeground": "#1414147A",
-    "gitDecoration.untrackedResourceForeground": "#4C7F8C",
-    "git.blame.editorDecorationForeground": "#141414AD",
-    "gitlens.trailingLineForegroundColor": "#1414147A",
     "inputValidation.errorBackground": "#FFD0D6",
     "inputValidation.errorBorder": "#E75E78",
     "inputValidation.errorForeground": "#CF2D56",
@@ -305,8 +313,6 @@
     "inputValidation.warningBorder": "#C08532",
     "inputValidation.warningForeground": "#A16900",
     "list.deemphasizedForeground": "#141414AD",
-    "list.focusBackground": "#00ff00", // 1414141E
-    "list.focusForeground": "#00ff00", // 5e727a
 
     "list.invalidItemForeground": "#1414147A",
     "list.warningForeground": "#C08532",

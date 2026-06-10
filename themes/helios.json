@@ -202,6 +202,19 @@
     "editor.wordHighlightStrongBackground": "#5e727a22",
     "editor.snippetFinalTabstopHighlightBorder": "#eaedee",
     "editor.snippetTabstopHighlightBackground": "#eaedee",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#C72100",
+    "editorError.foreground": "#C72100",
+    "editorGroupHeader.noTabsBackground": "#fcfcfc",
+    "editorGroupHeader.tabsBorder": "#dadee0",
+    "editorLink.activeForeground": "#5e727a",
+    "editorMarkerNavigation.background": "#f6f8f8",
+    "editorMarkerNavigationError.background": "#C72100",
+    "editorMarkerNavigationWarning.background": "#DBAF00",
+    "editorWarning.border": "#00000000",
+    "editorWhitespace.foreground": "#b8c1c5",
+    "editorWidget.background": "#f6f8f8",
+    "editorWidget.foreground": "#5e727a",
+    "editorWidget.resizeBorder": "#00000000",
 
     // Diff editor colors
     // ------------------
@@ -432,24 +445,8 @@
     "chart.axis": "#14141413",
     "chart.guide": "#141414AD",
 
-    "editorBracketHighlight.unexpectedBracket.foreground": "#CF2D56",
-    "editorError.border": "#CF2D5600",
-    "editorError.foreground": "#CF2D56",
-    "editorGroupHeader.noTabsBackground": "#F3F3F3",
-    "editorGroupHeader.tabsBorder": "#14141413",
-
-    "editorLink.activeForeground": "#5e727a",
-    "editorMarkerNavigation.background": "#14141461",
-    "editorMarkerNavigationError.background": "#CF2D56C0",
-    "editorMarkerNavigationWarning.background": "#141414AD",
-
-    "editorUnnecessaryCode.opacity": "#0000007F",
-    "editorWarning.border": "#FCFCFC00",
-    "editorWhitespace.foreground": "#1414145E",
-    "editorWidget.background": "#fcfcfc",
-    "editorWidget.foreground": "#141414AD",
-    "editorWidget.resizeBorder": "#14141426",
     "editorStickyScroll.border": "#14141413",
+    "editorUnnecessaryCode.opacity": "#0000007F",
 
     "inputValidation.infoBackground": "#D2E1E5",
     "inputValidation.infoBorder": "#6F9BA6",
@@ -457,16 +454,16 @@
     "inputValidation.warningBackground": "#F0DAC1",
     "inputValidation.warningBorder": "#C08532",
     "inputValidation.warningForeground": "#A16900",
-    "list.deemphasizedForeground": "#141414AD",
 
+    "list.deemphasizedForeground": "#141414AD",
     "list.invalidItemForeground": "#1414147A",
     "list.warningForeground": "#C08532",
 
     "notificationLink.foreground": "#6F9BA6",
-
     "notificationsErrorIcon.foreground": "#CF2D56",
     "notificationsInfoIcon.foreground": "#206595",
     "notificationsWarningIcon.foreground": "#DB704B",
+
     "panelStickyScroll.border": "#14141413",
     "panelTitle.activeBorder": "#0B0B2D00",
 

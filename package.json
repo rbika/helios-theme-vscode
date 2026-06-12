@@ -19,7 +19,8 @@
   ],
   "scripts": {
     "format": "prettier --write .",
-    "minify": "node scripts/minify.js"
+    "minify": "node scripts/minify.js",
+    "dev": "node --watch-path=src/helios.jsonc scripts/minify.js"
   },
   "engines": {
     "vscode": "^1.105.0"

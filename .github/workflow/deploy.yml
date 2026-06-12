@@ -1,0 +1,22 @@
+name: Deploy theme to VS Code Marketplace and Open VSX Registry
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24.16.0
+      - run: npm install
+      - run: npm run minify
+      - env:
+          VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+          OPEN_VSX_TOKEN: ${{ secrets.OPEN_VSX_TOKEN }}
+        run: npx vsce publish --pat ${{ env.VSCE_TOKEN }}
+        run: npx ovsx publish --pat ${{ env.OPEN_VSX_TOKEN }}

@@ -39,7 +39,7 @@
     // Action colors
     // -------------
     "toolbar.hoverBackground": "#eaedee",
-    "toolbar.hoverOutline": "#eaedee",
+    "toolbar.hoverOutline": "#00000000",
     "toolbar.activeBackground": "#dadee0",
     "editorActionList.background": "#f6f8f8",
     "editorActionList.foreground": "#566870",
@@ -81,8 +81,6 @@
 
     // Input control
     // -------------
-    "input.background": "#fcfcfc",
-    "input.border": "#dadee0",
     "input.foreground": "#5e727a",
     "input.placeholderForeground": "#8f9da3",
     "inputOption.activeBorder": "#eaedee",
@@ -96,6 +94,8 @@
     "inputValidation.warningBackground": "#FFF5D6",
     "inputValidation.warningBorder": "#946F00",
     "inputValidation.warningForeground": "#946F00",
+    "input.background": "#fcfcfc",
+    "input.border": "#dadee0",
 
     // Scrollbar control
     // -----------------
@@ -129,6 +129,7 @@
     "list.focusOutline": "#dadee0",
     "tree.indentGuidesStroke": "#b8c1c5",
     "tree.inactiveIndentGuidesStroke": "#dadee0",
+    "list.deemphasizedForeground": "#4e5f66",
 
     // Activity Bar
     // ------------
@@ -489,7 +490,6 @@
     "chart.axis": "#14141413",
     "chart.guide": "#141414AD",
 
-    "list.deemphasizedForeground": "#00ff00", // ?
     "list.invalidItemForeground": "#1414147A",
     "list.warningForeground": "#C08532"
   },

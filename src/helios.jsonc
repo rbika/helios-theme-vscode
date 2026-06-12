@@ -81,21 +81,24 @@
 
     // Input control
     // -------------
-    "input.foreground": "#5e727a",
+
+    "input.background": "#fcfcfc",
+    "input.border": "#dadee0",
+    "input.foreground": "#566870",
     "input.placeholderForeground": "#8f9da3",
     "inputOption.activeBorder": "#eaedee",
     "inputOption.activeBackground": "#eaedee",
-    "inputValidation.errorBackground": "#f8cbc2",
-    "inputValidation.errorBorder": "#C72100",
+    "inputOption.activeForeground": "#566870",
+    "inputOption.hoverBackground": "#eaedee",
+    "inputValidation.errorBackground": "#FFEEEB",
     "inputValidation.errorForeground": "#C72100",
-    "inputValidation.infoBackground": "#DCEDF9",
-    "inputValidation.infoBorder": "#2587cc",
-    "inputValidation.infoForeground": "#2587cc",
-    "inputValidation.warningBackground": "#FFF5D6",
-    "inputValidation.warningBorder": "#946F00",
+    "inputValidation.errorBorder": "#C72100",
+    "inputValidation.infoBackground": "#E5F6FF",
+    "inputValidation.infoForeground": "#0071B2",
+    "inputValidation.infoBorder": "#0071B2",
+    "inputValidation.warningBackground": "#FFF9E5",
     "inputValidation.warningForeground": "#946F00",
-    "input.background": "#fcfcfc",
-    "input.border": "#dadee0",
+    "inputValidation.warningBorder": "#946F00",
 
     // Scrollbar control
     // -----------------

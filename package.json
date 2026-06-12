@@ -1,8 +1,8 @@
 {
   "name": "theme-helios",
   "displayName": "Helios Theme",
-  "description": "A clean and modern light theme for VS Code.",
-  "version": "0.0.14",
+  "description": "A clean and modern light theme for VS Code, Cursor and VS Code-compatible editors.",
+  "version": "0.0.15",
   "publisher": "rbika",
   "license": "MIT",
   "icon": "icon.png",

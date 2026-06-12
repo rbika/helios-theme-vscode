@@ -2,7 +2,7 @@
 
 🚧 WIP
 
-A clean, modern light theme for VS Code and VS Code-compatible editors.
+A clean and modern light theme for VS Code, Cursor and VS Code-compatible editors.
 
 ![Helios Theme screenshot](./screenshot.png)
 

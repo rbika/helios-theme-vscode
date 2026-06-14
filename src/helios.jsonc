@@ -81,7 +81,6 @@
 
     // Input control
     // -------------
-
     "input.background": "#fcfcfc",
     "input.border": "#dadee0",
     "input.foreground": "#566870",
@@ -102,15 +101,16 @@
 
     // Scrollbar control
     // -----------------
-    "scrollbar.shadow": "#f6f8f8",
-    "scrollbarSlider.background": "#5e727a29",
-    "scrollbarSlider.hoverBackground": "#5e727a33",
-    "scrollbarSlider.activeBackground": "#5e727a44",
+    // "scrollbar.background": "#00ff00",
+    "scrollbar.shadow": "#5668700d",
+    "scrollbarSlider.activeBackground": "#5668704d",
+    "scrollbarSlider.background": "#56687033",
+    "scrollbarSlider.hoverBackground": "#56687040",
 
     // Badge
     // -----
     "badge.background": "#dadee0",
-    "badge.foreground": "#5e727a",
+    "badge.foreground": "#566870",
 
     // Progress bar
     // ------------
@@ -118,21 +118,38 @@
 
     // Lists and trees
     // ---------------
-    "list.hoverBackground": "#eaedee",
-    "list.hoverForeground": "#5e727a",
     "list.activeSelectionBackground": "#eaedee",
-    "list.activeSelectionForeground": "#5e727a",
-    "list.inactiveSelectionForeground": "#5e727a",
-    "list.inactiveSelectionBackground": "#eaedee",
+    "list.activeSelectionForeground": "#566870",
+    "list.activeSelectionIconForeground": "#566870",
     "list.dropBackground": "#eaedee",
-    "list.errorForeground": "#C9432E",
-    "list.highlightForeground": "#946F00",
     "list.focusBackground": "#eaedee",
-    "list.focusForeground": "#5e727a",
+    "list.focusForeground": "#566870",
+    "list.focusHighlightForeground": "#946F00",
     "list.focusOutline": "#dadee0",
+    "list.focusAndSelectionOutline": "#00000000",
+    "list.highlightForeground": "#946F00",
+    "list.hoverBackground": "#eaedee",
+    "list.hoverForeground": "#566870",
+    "list.inactiveSelectionBackground": "#eaedee",
+    "list.inactiveSelectionForeground": "#566870",
+    // "list.inactiveSelectionIconForeground": "#00ff00",
+    "list.inactiveFocusBackground": "#00000000",
+    "list.inactiveFocusOutline": "#00000000",
+    // "list.invalidItemForeground": "#00ff00",
+    "list.errorForeground": "#C72100",
+    // "list.warningForeground": "#00ff00",
+    // "listFilterWidget.background": "#00ff00",
+    // "listFilterWidget.outline": "#00ff00",
+    // "listFilterWidget.noMatchesOutline": "#00ff00",
+    // "listFilterWidget.shadow": "#00ff00",
+    // "list.filterMatchBackground": "#00ff00",
+    // "list.filterMatchBorder": "#00ff00",
+    "list.deemphasizedForeground": "#4e5f66",
+    // "list.dropBetweenBackground": "#00ff00",
     "tree.indentGuidesStroke": "#b8c1c5",
     "tree.inactiveIndentGuidesStroke": "#dadee0",
-    "list.deemphasizedForeground": "#4e5f66",
+    // "tree.tableColumnsBorder": "#00ff00",
+    // "tree.tableOddRowsBackground": "#00ff00",
 
     // Activity Bar
     // ------------
@@ -491,10 +508,7 @@
     "charts.purple": "#9E94D5",
     "chart.line": "#14141413",
     "chart.axis": "#14141413",
-    "chart.guide": "#141414AD",
-
-    "list.invalidItemForeground": "#1414147A",
-    "list.warningForeground": "#C08532"
+    "chart.guide": "#141414AD"
   },
   "tokenColors": [
     { "settings": { "foreground": "#5e727a" } },

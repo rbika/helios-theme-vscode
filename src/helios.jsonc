@@ -19,8 +19,8 @@
     "icon.foreground": "#566870",
     "sash.hoverBorder": "#00000000",
 
-    // Window border
-    // -------------
+    // Window border (macOS and Linux)
+    // -------------------------------
     // "window.border": "#00ff00",
     // "window.inactiveBorder": "#00ff00",
 
@@ -416,7 +416,7 @@
     "peekViewEditor.background": "#f6f8f8",
     "peekViewEditorGutter.background": "#f6f8f8",
     "peekViewEditor.matchHighlightBackground": "#dadee0",
-    "peekViewEditor.matchHighlightBorder": "#00ff00",
+    // "peekViewEditor.matchHighlightBorder": "#00ff00",
     "peekViewResult.background": "#f6f8f8",
     "peekViewResult.fileForeground": "#566870",
     "peekViewResult.lineForeground": "#566870",
@@ -595,26 +595,26 @@
     // -------------------
     // "pickerGroup.border": "#dadee0",
     // "pickerGroup.foreground": "#946F00",
-    "pickerGroup.border": "#00ff00",
-    "pickerGroup.foreground": "#00ff00",
-    "quickInput.background": "#00ff00",
-    "quickInput.foreground": "#00ff00",
-    "quickInputList.focusBackground": "#00ff00",
-    "quickInputList.focusForeground": "#00ff00",
-    "quickInputList.focusIconForeground": "#00ff00",
-    "quickInputTitle.background": "#00ff00",
+    // "pickerGroup.border": "#00ff00",
+    // "pickerGroup.foreground": "#00ff00",
+    // "quickInput.background": "#00ff00",
+    // "quickInput.foreground": "#00ff00",
+    // "quickInputList.focusBackground": "#00ff00",
+    // "quickInputList.focusForeground": "#00ff00",
+    // "quickInputList.focusIconForeground": "#00ff00",
+    // "quickInputTitle.background": "#00ff00",
 
     // Keybinding label colors
     // -----------------------
-    "keybindingLabel.background": "#00ff00",
-    "keybindingLabel.foreground": "#00ff00",
-    "keybindingLabel.border": "#00ff00",
-    "keybindingLabel.bottomBorder": "#00ff00",
+    // "keybindingLabel.background": "#00ff00",
+    // "keybindingLabel.foreground": "#00ff00",
+    // "keybindingLabel.border": "#00ff00",
+    // "keybindingLabel.bottomBorder": "#00ff00",
 
     // Keyboard shortcut table colors
     // ------------------------------
-    "keybindingTable.headerBackground": "#00ff00",
-    "keybindingTable.rowsBackground": "#00ff00",
+    // "keybindingTable.headerBackground": "#00ff00",
+    // "keybindingTable.rowsBackground": "#00ff00",
 
     // Integrated Terminal colors
     // --------------------------
@@ -814,7 +814,7 @@
     "editor.snippetTabstopHighlightBackground": "#eaedee",
     // "editor.snippetTabstopHighlightBorder": "#00ff00",
     // "editor.snippetFinalTabstopHighlightBackground": "#00ff00",
-    "editor.snippetFinalTabstopHighlightBorder": "#eaedee",
+    "editor.snippetFinalTabstopHighlightBorder": "#eaedee"
 
     // Symbol Icons colors
     // -------------------
@@ -918,46 +918,46 @@
 
     // Ports colors
     // ------------
-    "ports.iconRunningProcessForeground": "#00ff00",
+    // "ports.iconRunningProcessForeground": "#00ff00",
 
     // Comments View colors
     // --------------------
-    "commentsView.resolvedIcon": "#00ff00",
-    "commentsView.unresolvedIcon": "#00ff00",
+    // "commentsView.resolvedIcon": "#00ff00",
+    // "commentsView.unresolvedIcon": "#00ff00",
 
     // Action Bar colors
     // -----------------
-    "actionBar.toggledBackground": "#00ff00",
+    // "actionBar.toggledBackground": "#00ff00",
 
     // Simple Find Widget colors
     // -------------------------
-    "simpleFindWidget.sashBorder": "#00ff00",
+    // "simpleFindWidget.sashBorder": "#00ff00"
 
     // Gauge colors
     // ------------
-    "gauge.background": "#00ff00",
-    "gauge.foreground": "#00ff00",
-    "gauge.border": "#00ff00",
-    "gauge.warningBackground": "#00ff00",
-    "gauge.warningForeground": "#00ff00",
-    "gauge.errorBackground": "#00ff00",
-    "gauge.errorForeground": "#00ff00",
+    // "gauge.background": "#00ff00",
+    // "gauge.foreground": "#00ff00",
+    // "gauge.border": "#00ff00",
+    // "gauge.warningBackground": "#00ff00",
+    // "gauge.warningForeground": "#00ff00",
+    // "gauge.errorBackground": "#00ff00",
+    // "gauge.errorForeground": "#00ff00",
 
     // Markdown
     // --------
-    "markdownAlert.note.foreground": "#00ff00",
-    "markdownAlert.tip.foreground": "#00ff00",
-    "markdownAlert.important.foreground": "#00ff00",
-    "markdownAlert.warning.foreground": "#00ff00",
-    "markdownAlert.caution.foreground": "#00ff00",
+    // "markdownAlert.note.foreground": "#00ff00",
+    // "markdownAlert.tip.foreground": "#00ff00",
+    // "markdownAlert.important.foreground": "#00ff00",
+    // "markdownAlert.warning.foreground": "#00ff00",
+    // "markdownAlert.caution.foreground": "#00ff00",
 
     // Agent Session colors
     // --------------------
-    "agentSessionReadIndicator.foreground": "#00ff00",
-    "agentSessionSelectedBadge.border": "#00ff00",
-    "agentSessionSelectedUnfocusedBadge.border": "#00ff00",
-    "agentStatusIndicator.background": "#00ff00",
-    "aiCustomizationManagement.sashBorder": "#00ff00"
+    // "agentSessionReadIndicator.foreground": "#00ff00",
+    // "agentSessionSelectedBadge.border": "#00ff00",
+    // "agentSessionSelectedUnfocusedBadge.border": "#00ff00",
+    // "agentStatusIndicator.background": "#00ff00",
+    // "aiCustomizationManagement.sashBorder": "#00ff00"
 
     // ---------------------------------------------------------------------------------------------
   },

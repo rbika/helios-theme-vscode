@@ -272,7 +272,7 @@
     "editorInlayHint.typeForeground": "#8f9da3",
     "editorGutter.deletedBackground": "#C72100",
     "editorGutter.addedBackground": "#039619",
-    "editorCursor.foreground": "#5e727a",
+    "editorCursor.foreground": "#52646b",
     "editor.background": "#ffffff",
     "editor.foreground": "#4e5f66",
     "editor.lineHighlightBackground": "#f1f3f4",
@@ -320,8 +320,8 @@
     "diffEditor.removedTextBorder": "#00000000",
     "diffEditor.border": "#00000000",
     "diffEditor.diagonalFill": "#8f9da3",
-    "diffEditor.insertedLineBackground": "#E1F4E4",
-    "diffEditor.removedLineBackground": "#ffeded",
+    "diffEditor.insertedLineBackground": "#C3E9C980",
+    "diffEditor.removedLineBackground": "#FFDADA80",
     "diffEditorGutter.insertedLineBackground": "#00000000",
     "diffEditorGutter.removedLineBackground": "#00000000",
     // "diffEditorOverview.insertedForeground": "#00ff00",
@@ -433,7 +433,7 @@
     // ----------------------
 
     "merge.currentHeaderBackground": "#C3E9C9",
-    "merge.currentContentBackground": "#E1F4E4",
+    "merge.currentContentBackground": "#C3E9C980",
     "merge.incomingHeaderBackground": "#BADBF2",
     "merge.incomingContentBackground": "#DCEDF9",
     "merge.border": "#00000000",
